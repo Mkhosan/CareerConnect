@@ -25,11 +25,11 @@ public class Job {
         this.id = id;
     }
 
-    public String getTittle() {
+    public String getTitle() {
         return title;
     }
 
-    public void setTittle(String tittle) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
