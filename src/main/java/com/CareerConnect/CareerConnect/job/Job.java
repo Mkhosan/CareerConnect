@@ -2,15 +2,15 @@ package com.CareerConnect.CareerConnect.job;
 
 public class Job {
     private Long id;
-    private String tittle;
+    private String title;
     private String description;
     private String minSalary;
     private String maxSalary;
     private String location;
 
-    public Job(Long id, String tittle, String description, String minSalary, String maxSalary, String location) {
+    public Job(Long id, String title, String description, String minSalary, String maxSalary, String location) {
         this.id = id;
-        this.tittle = tittle;
+        this.title = title;
         this.description = description;
         this.minSalary = minSalary;
         this.maxSalary = maxSalary;
@@ -26,11 +26,11 @@ public class Job {
     }
 
     public String getTittle() {
-        return tittle;
+        return title;
     }
 
     public void setTittle(String tittle) {
-        this.tittle = tittle;
+        this.title = title;
     }
 
     public String getDescription() {
